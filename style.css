@@ -3,7 +3,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
 body::after{
     content: '';
@@ -15,9 +14,6 @@ body::after{
     background-color: rgba(0, 0, 0, 0.272);
     z-index: -1;
 }
-
-
-
 h1{
     text-align: center;
     color:  #f8e0e6;
@@ -29,17 +25,11 @@ h1{
     background-color:#3eb3e59b;
     margin: 100px auto;
     border-radius: 10px;
-  
 }
-
 form{
     display: flex;
     flex-direction: column;
-    
-    
-    
 }
-
 input{
     margin-bottom: 10px;
     background-color: transparent;
@@ -62,23 +52,16 @@ button{
     font-weight: 600;
     font-family: "Schibsted Grotesk", sans-serif;
 }
-
 button:hover{
     background-color: rgba(216, 158, 110, 0.559);
     transition: 0.5;
 }
-
 h2{
     text-align: center;
     color: transparent;
-    
-   
 }
-
-
 input::placeholder{ 
     color: white;
-
 }
 input:focus{
     outline: none;

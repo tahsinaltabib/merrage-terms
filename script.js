@@ -14,7 +14,7 @@ button.addEventListener('click',function(){
     }else  if(!(age.value>=20)){
         output.style.display="block"
         output.style.color="rgb(253, 3, 3)"
-        output.innerHTML="Aage boro hoow Baba!"
+        output.innerHTML="Tmi to akhono onk choto. Aage boro hoow Baba!"
         
     }else if(!(selary.value>=45000)){
         output.style.display="block"
