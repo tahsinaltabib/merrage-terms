@@ -27,7 +27,7 @@ button.addEventListener('click',function(){
         output.style.color="rgb(253, 3, 3)"
     }else{
         output.style.display="block"
-        output.innerHTML="Biya korte parbe"
+        output.innerHTML="Hea. Tmi tahole amdr meye k biye krte prba!"
          output.style.color="#38dc30"
     }
         
