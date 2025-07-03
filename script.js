@@ -11,14 +11,14 @@ button.addEventListener('click',function(){
         output.style.color="rgb(253, 249, 3)"
         output.innerHTML="First, fill up the form!"
 
-    }else  if(!(age.value>20)){
+    }else  if(!(age.value>18)){
         output.style.display="block"
         output.style.color="rgb(253, 3, 3)"
         output.innerHTML="You are still young. You need to get older first."
         
-    }else if(!(salery.value>=45000)){
+    }else if(!(salery.value>=40000)){
         output.style.display="block"
-        output.innerHTML="To marry our daughter, you need to earn a minimum of 45000 a month."
+        output.innerHTML="To marry our daughter, you need to earn a minimum of 40000 a month."
         output.style.color="rgb(253, 3, 3)"
 
     }else if(!(home.value=="Dhaka")){
